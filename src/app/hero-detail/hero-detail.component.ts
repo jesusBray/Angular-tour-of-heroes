@@ -12,13 +12,6 @@ export class HeroDetailComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.method();
-  }
-  public method(){
-    if (this.method != null ) {
-      console.log(this.submitHero, 'activando el metodo "metthod"');
-      
-    }
   }
 
 }
