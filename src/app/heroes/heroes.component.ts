@@ -11,7 +11,7 @@ import { HEROES } from '../mock-heroes';
 export class HeroesComponent implements OnInit {
 
   heroes = HEROES;
-  selectedHero: Hero;
+  selectedHero: Hero=  { id: 20, name: 'Tornado' };
 
   constructor() { }
 

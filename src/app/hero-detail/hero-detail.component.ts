@@ -8,10 +8,17 @@ import { Hero } from '../hero';
 })
 export class HeroDetailComponent implements OnInit {
 
-  @Input() hero: Hero;
+  @Input() submitHero: Hero;
   constructor() { }
 
   ngOnInit() {
+    this.method();
+  }
+  public method(){
+    if (this.method != null ) {
+      console.log(this.submitHero, 'activando el metodo "metthod"');
+      
+    }
   }
 
 }
